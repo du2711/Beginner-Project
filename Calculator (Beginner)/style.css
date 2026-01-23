@@ -1,0 +1,48 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 34, 34);
+}
+#calc{
+    border: 2px solid white;
+    padding: 25px;
+    border-radius: 25px;
+}
+input{
+    color: seashell;
+    background-color: rgb(31, 28, 29);
+    margin-left: 50px;
+    padding: 20px;
+    text-align: right;
+}
+button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(27, 23, 23);
+    color: seashell;
+    border-radius: 50px;
+    margin: 5px;
+}
+.butn{
+    padding: 25px;
+}
+input::placeholder{
+    color: rgb(218, 201, 201);
+}
+.equal{
+    background-color: #fb7c14;
+}
